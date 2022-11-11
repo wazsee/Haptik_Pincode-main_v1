@@ -5,11 +5,12 @@ import os
 def milking(request_json):
     try:
         response = {}
-        df = pd.read_csv(r"C:\Users\satishkumar.s\Downloads\Haptik_Pincode-main (1)\Haptik_Pincode-main\Milkrare-Haptik\factory\Haptikdata.csv",encoding='latin-1')
+        #df = pd.read_csv(r"C:\Users\satishkumar.s\Downloads\Haptik_Pincode-main (1)\Haptik_Pincode-main\Milkrare-Haptik\factory\Haptikdata.csv",encoding='latin-1')
         #url = "https://github.com/wazsee/Haptik_Pincode/blob/main/Milkrare-Haptik/factory/Haptikdata.csv"
         #df = pd.read_csv('https://github.com/wazsee/Haptik_Pincode/blob/main/Milkrare-Haptik/factory/Haptikdata.csv', on_bad_lines='skip')
         #url = "https://github.com/wazsee/Haptik_Pincode/blob/main/Milkrare-Haptik/factory/Haptikdata.csv?raw=true"
-        #df = pd.read_csv(url)
+        url= https://github.com/wazsee/Haptik_Pincode-main_v1/blob/main/Haptik_Pincode-main_V1/Haptik_Pincode-main/Milkrare-Haptik/factory/Haptikdata.csv?raw=true
+        df = pd.read_csv(url)
             
         #print("df")
         
